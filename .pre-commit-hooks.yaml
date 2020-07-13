@@ -1,0 +1,5 @@
+- id: git-chglog
+  name: Check for git-chglog compatible commit messages
+  description: Ensure that the commit message adheres to the git-chglog configuration
+  entry: pre-commit-git-chglog
+  language: python
